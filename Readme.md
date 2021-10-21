@@ -1,3 +1,5 @@
+# tyepscript-storage
+
 ```typescript
 export class MyClass {
   private contextLocal  = new ContextStorage(new LocalStorage());
@@ -10,4 +12,3 @@ export class MyClass {
   this.contextMemory.setItem('name', 'alex');
 }
 ```
-# tyepscript-storage
