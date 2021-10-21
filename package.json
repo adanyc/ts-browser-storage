@@ -1,0 +1,33 @@
+{
+  "name": "typescript-storage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/typescript-storage.js",
+  "types": "dist/main.d.ts",
+  "scripts": {
+    "build": "webpack --config webpack.config.js && npm run copy:cdn",
+    "copy:cdn": "cpr dist/typescript-storage.js dist/typescript-storage.js -o",
+    "test": "jest --coverage",
+    "lint": "eslint --ext .ts src"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^14.14.25",
+    "@types/source-map-support": "^0.5.3",
+    "@typescript-eslint/eslint-plugin": "^4.33.0",
+    "@typescript-eslint/parser": "^4.33.0",
+    "cpr": "^3.0.1",
+    "eslint": "^7.32.0",
+    "jest": "^26.6.3",
+    "onchange": "^7.1.0",
+    "serve": "^11.3.2",
+    "source-map-support": "^0.5.19",
+    "ts-jest": "^26.5.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^3.8.3",
+    "webpack": "^5.20.2",
+    "webpack-cli": "^4.5.0"
+  }
+}
