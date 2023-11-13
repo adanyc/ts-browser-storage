@@ -13,6 +13,8 @@ export class MemoryStorage extends Validator implements Strategy {
     if (!MemoryStorage.instance) {
       MemoryStorage.instance = new MemoryStorage();
     }
+
+    return MemoryStorage.instance;
   }
 
   getItem(key: string) {
