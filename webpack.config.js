@@ -8,9 +8,9 @@ module.exports = {
   entry: path.resolve(__dirname, 'src/main.ts'),
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'typescript-storage.js',
+    filename: 'ts-browser-storage.js',
     libraryTarget: 'umd',
-    library: 'typescript-storage'
+    library: 'ts-browser-storage'
   },
   resolve: {
     extensions: ['.webpack.js', 'web.js', '.ts', '.js']

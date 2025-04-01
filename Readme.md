@@ -1,7 +1,13 @@
-# tyepscript-storage
+# ts-browser-storage
+
+## Prerequisites
+
+- Node: 18.16.0
+
+## How to use
 
 ```typescript
-export class MyClass {
+export class SomeClass {
   private contextLocal  = new ContextStorage(new LocalStorage());
   this.contextLocal.setItem('name', 'alex');
 
