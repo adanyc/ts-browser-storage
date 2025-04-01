@@ -1,20 +1,20 @@
 {
-  "name": "typescript-storage",
+  "name": "ts-browser-storage",
   "version": "1.0.0",
-  "description": "",
-  "main": "dist/typescript-storage.js",
+  "description": "Library for browser storage management",
+  "main": "dist/ts-browser-storage.js",
   "types": "dist/main.d.ts",
   "scripts": {
     "build": "webpack --config webpack.config.js && npm run copy:cdn",
-    "copy:cdn": "cpr dist/typescript-storage.js dist/typescript-storage.js -o",
+    "copy:cdn": "cpr dist/ts-browser-storage.js dist/ts-browser-storage.js -o",
     "test": "jest --coverage",
     "lint": "eslint --ext .ts src"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "ADANYC",
+  "license": "",
   "devDependencies": {
     "@types/jest": "^26.0.20",
-    "@types/node": "^14.14.25",
+    "@types/node": "^18.16.0",
     "@types/source-map-support": "^0.5.3",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
@@ -24,10 +24,10 @@
     "onchange": "^7.1.0",
     "serve": "^11.3.2",
     "source-map-support": "^0.5.19",
-    "ts-jest": "^26.5.0",
-    "ts-loader": "^8.0.14",
-    "typescript": "^3.8.3",
-    "webpack": "^5.20.2",
-    "webpack-cli": "^4.5.0"
+    "ts-jest": "^26.5.6",
+    "ts-loader": "^8.4.0",
+    "typescript": "~4.9.5",
+    "webpack": "^5.98.0",
+    "webpack-cli": "^4.10.0"
   }
 }
