@@ -1,5 +1,7 @@
 # ts-browser-storage
 
+:warning: __This repository is deprecated.__
+
 ## Prerequisites
 
 - Node: 18.16.0
